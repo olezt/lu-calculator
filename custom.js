@@ -1,19 +1,14 @@
 function countDei() { 
 	var formKw = document.getElementById('formKw').value;
     console.log("counting dei "+formKw);
-	lunaTalk("50px", 300, 5);
+	lunaTalk(300, 4);
 	return false;
 };
 
-function lunaTalk(lunaMargin, delay, times){
-	var tempLunaMargin = lunaMargin;
+function lunaTalk(delay, times){
 	setIntervalX(function () {
-		if(tempLunaMargin=="0px"){
-			tempLunaMargin = lunaMargin;
-		}else{
-			tempLunaMargin = "0px";
-		}
-		document.getElementById("lunaDown").style.marginTop = tempLunaMargin;
+		$("#lunaUp").toggleClass('talkUp');
+		$("#lunaDown").toggleClass('talkDown');
 	}, delay, times);
 }
 
