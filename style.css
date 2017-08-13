@@ -22,7 +22,6 @@ img 					{vertical-align: middle; width: 100%}
 	background-repeat:no-repeat;
 	background-position: top;
 	height: 150px;
-	
 }
 
 .luna-container {
@@ -57,4 +56,5 @@ img 					{vertical-align: middle; width: 100%}
 	background-image: url("img/results.png");
 	background-size: contain;
 	background-repeat:no-repeat;
+	display: none;
 }

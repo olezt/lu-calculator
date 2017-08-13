@@ -1,7 +1,8 @@
 function countDei() { 
 	var formKw = document.getElementById('formKw').value;
-    console.log("counting dei "+formKw);
 	lunaTalk(300, 4);
+//	document.getElementById('results').innerHTML = formKw;
+	document.getElementById('results').style.display = "block";
 	return false;
 };
 
