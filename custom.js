@@ -1,7 +1,9 @@
 function countDei() { 
 	var formKw = document.getElementById('formKw').value;
 	lunaTalk(300, 4);
-//	document.getElementById('results').innerHTML = formKw;
+	document.getElementById('luHasToPay').innerHTML = formKw;
+	document.getElementById('upHasToPay').innerHTML = Number(formKw) + 100;
+	document.getElementById('downHasToPay').innerHTML = Number(formKw) + 200;
 	document.getElementById('results').style.display = "block";
 	return false;
 };
