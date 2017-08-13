@@ -1,6 +1,8 @@
 form button.btn.btn-default,
 form label 				{font-weight:bold}
 img 					{vertical-align: middle; width: 100%}
+footer 					{text-align: center}
+
 
 #lunaUp,
 #lunaDown {

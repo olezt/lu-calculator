@@ -11,26 +11,29 @@
 	<body>
 		<a href=""><div class="header-content"></div></a>
 		<div class="col-md-offset-2 col-sm-8">
-				<div class="col-sm-6">
-					<div class="luna-container">
-						<img id="lunaUp" class="lunaUp" src="./img/luna_up.png">
-						<img id="lunaDown" class="lunaDown" src="./img/luna_down.png" onmouseenter="lunaTalk(300, 4);">
-					</div>
+			<div class="col-sm-6">
+				<div class="luna-container">
+					<img id="lunaUp" class="lunaUp" src="./img/luna_up.png">
+					<img id="lunaDown" class="lunaDown" src="./img/luna_down.png" onmouseenter="lunaTalk(300, 4);">
 				</div>
-				<div class="col-sm-6">
-					<div class="row">
-						<form onsubmit="return countDei();">
-							<div class="form-group">
-								<label for="formKw">Kw:</label>
-								<input class="form-control" type="text" name="formKw" id="formKw" required/>
-							</div>
-							<button type="submit" class="btn btn-default pull-right" >Λου! Υπολόγισε τη ΔΕΗ!</button>
-						</form>
-					</div>
-					<div class="row ">
-						<div class="results" id="results" name="results"></div>
-					</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<form onsubmit="return countDei();">
+						<div class="form-group">
+							<label for="formKw">Kw:</label>
+							<input class="form-control" type="text" name="formKw" id="formKw" required/>
+						</div>
+						<button type="submit" class="btn btn-default pull-right" >Λου! Υπολόγισε τη ΔΕΗ!</button>
+					</form>
 				</div>
+				<div class="row ">
+					<div class="results" id="results" name="results"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-offset-2 col-sm-8">
+			<footer>Copyright 2017 &copy; <a href="https://github.com/olezt">Olezt</a> Dedicated to my father and my sister</footer>
 		</div>
 	</body>
 </html>
