@@ -58,9 +58,10 @@ footer {
 }
 
 .results {
-	height: 250px;
-	background-image: url("img/results.png");
+	height: 330px;
+	background-image: url("img/results-background.png");
 	background-size: contain;
+	background-position: center;
 	background-repeat:no-repeat;
 	display: none;
 }
