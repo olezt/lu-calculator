@@ -21,6 +21,22 @@
 				<div class="row">
 					<form onsubmit="lunaTalk(300, 4);" action="https://calm-citadel-50611.herokuapp.com/calculator.php">
 						<div class="form-group col-sm-6">
+							<label for="prevDate">Πρ. ημερομηνία μέτρησης:</label>
+							<input class="form-control" type="date" name="prevDate" id="prevDate"/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="newDate">Νέα ημερομηνία μέτρησης:</label>
+							<input class="form-control" type="date" name="newDate" id="newDate"/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="powerCost">Αξία ρεύματος:</label>
+							<input class="form-control" type="number" name="powerCost" id="powerCost" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="taxCost">Αξία τελών δήμου-ΕΡΤ:</label>
+							<input class="form-control" type="number" name="taxCost" id="taxCost" required/>
+						</div>
+						<div class="form-group col-sm-6">
 							<label for="prevMainK">Πρ. μέτρηση κεντρικός (Κ):</label>
 							<input class="form-control" type="number" name="prevMainK" id="prevMainK" required/>
 						</div>
@@ -52,14 +68,6 @@
 						<div class="form-group col-sm-6">
 							<label for="newEnd2">Νέα μέτρηση ενδιάμεσου 2:</label>
 							<input class="form-control" type="number" name="newEnd2" id="newEnd2" required/>
-						</div>						
-						<div class="form-group col-sm-6">
-							<label for="powerCost">Αξία ρεύματος:</label>
-							<input class="form-control" type="number" name="powerCost" id="powerCost" required/>
-						</div>
-						<div class="form-group col-sm-6">
-							<label for="taxCost">Αξία τελών δήμου-ΕΡΤ:</label>
-							<input class="form-control" type="number" name="taxCost" id="taxCost" required/>
 						</div>
 						<div class="col-sm-offset-6 col-sm-6">
 							<button type="submit" value="Submit" class="btn btn-default pull-right" >Λου! Υπολόγισε τη ΔΕΗ!</button>
