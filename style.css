@@ -61,14 +61,3 @@ table {
 	z-index:4;
 	margin-top:-33px
 }
-
-.results {
-	height: 330px;
-	padding-top: 80px;
-	font-size: 30px;
-	background-image: url("img/results-background.png");
-	background-size: contain;
-	background-position: center;
-	background-repeat:no-repeat;
-	display: none;
-}

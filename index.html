@@ -19,31 +19,52 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="row">
-					<form onsubmit="return countDei();">
-						<div class="form-group">
-							<label for="formKw">Kw:</label>
-							<input class="form-control" type="number" name="formKw" id="formKw"/>
+					<form onsubmit="lunaTalk(300, 4);" action="https://calm-citadel-50611.herokuapp.com/calculator.php">
+						<div class="form-group col-sm-6">
+							<label for="prevMainK">Πρ. μέτρηση κεντρικός (Κ):</label>
+							<input class="form-control" type="number" name="prevMainK" id="prevMainK" required/>
 						</div>
-						<button type="submit" class="btn btn-default pull-right" >Λου! Υπολόγισε τη ΔΕΗ!</button>
+						<div class="form-group col-sm-6">
+							<label for="newMainK">Νέα μέτρηση κεντρικός (Κ):</label>
+							<input class="form-control" type="number" name="newMainK" id="newMainK" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="prevMainM">Πρ. μέτρηση κεντρικός (Μ):</label>
+							<input class="form-control" type="number" name="prevMainM" id="prevMainM" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="newMainM">Νέα μέτρηση κεντρικός (Μ):</label>
+							<input class="form-control" type="number" name="newMainM" id="newMainM" required/>
+						</div>
+						
+						<div class="form-group col-sm-6">
+							<label for="prevEnd1">Πρ. μέτρηση ενδιάμεσου 1:</label>
+							<input class="form-control" type="number" name="prevEnd1" id="prevEnd1" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="newEnd1">Νέα μέτρηση ενδιάμεσου 1:</label>
+							<input class="form-control" type="number" name="newEnd1" id="newEnd1" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="prevEnd2">Πρ. μέτρηση ενδιάμεσου 2:</label>
+							<input class="form-control" type="number" name="prevEnd2" id="prevEnd2" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="newEnd2">Νέα μέτρηση ενδιάμεσου 2:</label>
+							<input class="form-control" type="number" name="newEnd2" id="newEnd2" required/>
+						</div>						
+						<div class="form-group col-sm-6">
+							<label for="powerCost">Αξία ρεύματος:</label>
+							<input class="form-control" type="number" name="powerCost" id="powerCost" required/>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="taxCost">Αξία τελών δήμου-ΕΡΤ:</label>
+							<input class="form-control" type="number" name="taxCost" id="taxCost" required/>
+						</div>
+						<div class="col-sm-offset-6 col-sm-6">
+							<button type="submit" value="Submit" class="btn btn-default pull-right" >Λου! Υπολόγισε τη ΔΕΗ!</button>
+						</div>
 					</form>
-				</div>
-				<div class="row">
-					<div class="results" id="results" name="results">
-						<table>
-						  	<tr>
-							    <td>Lu</td>
-							    <td id="luHasToPay" name="luHasToPay">100</td> 
-						  	</tr>
-						  	<tr>
-							    <td>Up</td>
-							    <td id="upHasToPay" name="upHasToPay">200</td> 
-						  	</tr>
-						  	<tr>
-							  	<td>Down</td>
-							  	<td id="downHasToPay" name="downHasToPay">300</td> 
-						  	</tr>
-						</table>
-					</div>
 				</div>
 			</div>
 		</div>
