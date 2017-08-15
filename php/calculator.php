@@ -34,7 +34,6 @@
 	if(isset($_GET['newDate']) && !empty($_GET['newDate'])) {
 	    $newDate = $_GET['newDate'];
 	}
-	
 	if(isset($_GET['prevMainK']) && !empty($_GET['prevMainK'])) {
 	    $prevMainK = $_GET['prevMainK'];
 	}
@@ -47,28 +46,28 @@
 	if(isset($_GET['newMainM']) && !empty($_GET['newMainM'])) {
 	    $newMainM = $_GET['newMainM'];
 	}
-	$difMain = ($newMainK - $prevMainK) + ($newMainM - $prevMainM);
-	
 	if(isset($_GET['prevEnd1']) && !empty($_GET['prevEnd1'])) {
 	    $prevEnd1 = $_GET['prevEnd1'];
 	}
 	if(isset($_GET['newEnd1']) && !empty($_GET['newEnd1'])) {
 	    $newEnd1 = $_GET['newEnd1'];
 	}
-	
 	if(isset($_GET['prevEnd2']) && !empty($_GET['prevEnd2'])) {
 	    $prevEnd2 = $_GET['prevEnd2'];
 	}
 	if(isset($_GET['newEnd2']) && !empty($_GET['newEnd2'])) {
 	    $newEnd2 = $_GET['newEnd2'];
 	}
-	
 	if(isset($_GET['powerCost']) && !empty($_GET['powerCost'])) {
 	    $powerCost = $_GET['powerCost'];
 	}
 	if(isset($_GET['taxCost']) && !empty($_GET['taxCost'])) {
 	    $taxCost = $_GET['taxCost'];
 	}
+	
+	$difMainK = $newMainK - $prevMainK;
+	$difMainM = $newMainM - $prevMainM;
+	$difMain = ($newMainK - $prevMainK) + ($newMainM - $prevMainM);
 	
 	$nameEnd1 = "ΔΗΜΗΤΡΗΣ";
 	$nameEnd2 = "ΓΙΩΡΓΟΣ";
