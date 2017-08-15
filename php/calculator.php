@@ -9,18 +9,22 @@
 	
 	.end1 {
 		background-color: yellow;
+		font-weight: bold;
 	}
 	
 	.end2 {
 		background-color: orange;
+		font-weight: bold;
 	}
 	
 	.end3 {
 		background-color: green;
+		font-weight: bold;
 	}
 	
 	.totals {
 		background-color: lightgreen;
+		font-weight: bold;
 	}
 </style>
 
