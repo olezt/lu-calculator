@@ -36,6 +36,9 @@
 	header("Content-Type: application/vnd.ms-excel; charset=UTF-8");
 	header("Content-disposition: attachment; filename=DiaxorismosDEI.xls");
 	
+	if(isset($_GET['expDate']) && !empty($_GET['expDate'])) {
+	    $expDate = $_GET['expDate'];
+	}
 	if(isset($_GET['prevDate']) && !empty($_GET['prevDate'])) {
 	    $prevDate = $_GET['prevDate'];
 	}
@@ -217,7 +220,7 @@
 <br>
 <table>
 	<tr class="header">
-		<th colspan="4">ΔΙΑΧΩΡΙΣΜΟΣ ΔΕΗ ΛΗΞΗΣ <?php echo $newDate ?></th>
+		<th colspan="4">ΔΙΑΧΩΡΙΣΜΟΣ ΔΕΗ ΛΗΞΗΣ <?php echo $expDate ?></th>
 	</tr>
 	<tr class="header">
 		<th>ΟΝΟΜΑ</th>
