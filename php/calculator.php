@@ -178,7 +178,7 @@
 	<tr class="tr">
 		<td class="header">ΕΝΔΙΑΜΕΣΟΣ 1</td>
 		<td><?php echo $difEnd1 .'/'. $difMain  ?></td>
-		<td class="end1"><?php echo number_format($powerPercentEnd1*100, 2) .'%' ?>*</td>
+		<td class="end1"><?php echo number_format($powerPercentEnd1*100, 2) .'%' ?></td>
 		<td>2ος ΟΡ.</td>
 		<td><?php echo $smEnd1 .'/'. $totalSm  ?></td>
 		<td class="end1"><?php echo number_format($taxPercentEnd1*100, 2) .' '. $nameEnd1 ?></td>
@@ -186,7 +186,7 @@
 	<tr class="tr">
 		<td class="header">ΕΝΔΙΑΜΕΣΟΣ 2</td>
 		<td><?php echo $difEnd2 .'/'. $difMain  ?></td>
-		<td class="end2"><?php echo number_format($powerPercentEnd2*100, 2) .'%' ?>*</td>
+		<td class="end2"><?php echo number_format($powerPercentEnd2*100, 2) .'%' ?></td>
 		<td>1ος ΟΡ.</td>
 		<td><?php echo $smEnd2 .'/'. $totalSm  ?></td>
 		<td class="end2"><?php echo number_format($taxPercentEnd2*100, 2) .'% '. $nameEnd2 ?></td>
@@ -194,7 +194,7 @@
 	<tr class="tr">
 		<td class="header">ΕΝΔΙΑΜΕΣΟΣ 3</td>
 		<td><?php echo $difEnd3 .'/'. $difMain  ?></td>
-		<td class="end3"><?php echo number_format($powerPercentEnd3*100,2) .'%' ?>*</td>
+		<td class="end3"><?php echo number_format($powerPercentEnd3*100,2) .'%' ?></td>
 		<td>ΙΣΟΓ.</td>
 		<td><?php echo $smEnd3 .'/'. $totalSm  ?></td>
 		<td class="end3"><?php echo number_format($taxPercentEnd3*100, 2) .'% '. $nameEnd3 ?></td>
