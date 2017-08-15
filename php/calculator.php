@@ -4,6 +4,10 @@
 	}
 
 	.header {
+		background-color: lightskyblue;
+	}
+	
+	.table-info {
 		background-color: lightblue;
 	}
 	
@@ -136,7 +140,7 @@
 		<td  class="totals"><?php echo $difMain ?>*</td>
 	</tr>
 	<tr class="tr">
-		<td class="header">*kwh</td>
+		<td class="table-info">*kwh</td>
 	</tr>
 </table>
 <br>
@@ -170,7 +174,7 @@
 		<td  class="totals"><?php echo $difMain ?> *</td>
 	</tr>
 	<tr class="tr">
-		<td class="header">*kwh</td>
+		<td class="table-info">*kwh</td>
 	</tr>
 </table>
 <br>
@@ -204,10 +208,10 @@
 		<td class="end3"><?php echo number_format($taxPercentEnd3*100, 2) .'% '. $nameEnd3 ?></td>
 	</tr>
 	<tr class="tr">
-		<td class="header">*kwh</td>
+		<td class="table-info">*kwh</td>
 	</tr>
 	<tr class="tr">
-		<td class="header">**m^2</td>
+		<td class="table-info">**m^2</td>
 	</tr>
 </table>
 <br>
