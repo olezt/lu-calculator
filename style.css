@@ -6,6 +6,7 @@ footer {
     bottom: 0;
     text-align: center;
     width: 100%;
+    background-color: white;
 }
 table {
 	width: 200px;
@@ -60,4 +61,8 @@ table {
 	position: relative;
 	z-index:4;
 	margin-top:-33px
+}
+
+.container{
+	margin-bottom: 25px;
 }
