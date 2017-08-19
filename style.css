@@ -29,7 +29,7 @@ table {
 }
 
 .header-content {
-	background-image: url("img/header-background.png");
+	background-image: url("img/header_background.png");
 	background-size: contain;
 	background-repeat:no-repeat;
 	background-position: top;
