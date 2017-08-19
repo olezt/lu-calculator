@@ -4,6 +4,10 @@
 
 **Author: olezt**
 
+<p align="center">
+	<img id="lunaFull" src="./img/luna_full.png" height="450">
+</p>
+
 ### Description
 
 This application is an HTML website specialized on splitting electricity cost for my father.		
