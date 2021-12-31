@@ -80,7 +80,7 @@
 	$difMainM = $newMainM - $prevMainM;
 	$difMain = ($newMainK - $prevMainK) + ($newMainM - $prevMainM);
 	
-	$nameEnd1 = "ΔΗΜΗΤΡΗΣ";
+	$nameEnd1 = "ΜΑΝΟΣ";
 	$nameEnd2 = "ΓΙΩΡΓΟΣ";
 	$nameEnd3 = "ΜΠΑΜΠΗΣ";
 	
