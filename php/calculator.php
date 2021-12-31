@@ -195,7 +195,7 @@
 		<td class="end1"><?php echo number_format($powerPercentEnd1*100, 2) .'%' ?></td>
 		<td>2ος ΟΡ.</td>
 		<td><?php echo $smEnd1 .'/'. $totalSm  ?></td>
-		<td class="end1"><?php echo number_format($taxPercentEnd1*100, 2) .' '. $nameEnd1 ?></td>
+		<td class="end1"><?php echo number_format($taxPercentEnd1*100, 2) .'% '. $nameEnd1 ?></td>
 	</tr>
 	<tr class="tr">
 		<td class="header">ΕΝΔΙΑΜΕΣΟΣ 2</td>
