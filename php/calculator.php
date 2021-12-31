@@ -24,6 +24,7 @@
 	.end3 {
 		background-color: green;
 		font-weight: bold;
+		font-size: 16px;
 	}
 	
 	.totals {
@@ -245,10 +246,10 @@
 		<td class="end2 font-large"><?php echo number_format($totalCostEnd2, 2) .'€' ?></td>
 	</tr>
 	<tr class="tr">
-		<td class="end3 font-large"><?php echo $nameEnd3  ?></td>
+		<td class="end3"><?php echo $nameEnd3  ?></td>
 		<td><?php echo $powerCost .'€ x '. number_format($powerPercentEnd3*100, 2) .'% = '. number_format($powerCostEnd3, 2) .'€' ?></td>
 		<td><?php echo $taxCost .'€ x '. number_format($taxPercentEnd3*100, 2) .'% = '. number_format($taxCostEnd3, 2) .'€' ?></td>
-		<td class="end3 font-large"><?php echo number_format($totalCostEnd3, 2) .'€' ?></td>
+		<td class="font-large"><?php echo number_format($totalCostEnd3, 2) .'€' ?></td>
 	</tr>
 	<tr>
 		<td class="totals">ΣΥΝΟΛΑ</td>
