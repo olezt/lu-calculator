@@ -14,25 +14,24 @@
 	.end1 {
 		background-color: yellow;
 		font-weight: bold;
+		font-size: 16px;
 	}
 	
 	.end2 {
 		background-color: orange;
 		font-weight: bold;
+		font-size: 16px;
 	}
 	
 	.end3 {
 		background-color: green;
 		font-weight: bold;
+		font-size: 16px;
 	}
 	
 	.totals {
 		background-color: lightgreen;
 		font-weight: bold;
-	}
-	
-	.font-large {
-		font-size: 16px;
 	}
 </style>
 
@@ -233,22 +232,22 @@
 		<th>ΣΥΝΟΛΟ</th>
 	</tr>
 	<tr class="tr">
-		<td class="end1 font-large"><?php echo $nameEnd1  ?></td>
+		<td class="end1"><?php echo $nameEnd1  ?></td>
 		<td><?php echo $powerCost .'€ x '. number_format($powerPercentEnd1*100, 2) .'% = '. number_format($powerCostEnd1, 2) .'€' ?></td>
 		<td><?php echo $taxCost .'€ x '. number_format($taxPercentEnd1*100, 2) .'% = '. number_format($taxCostEnd1, 2) .'€' ?></td>
-		<td class="end1 font-large"><?php echo number_format($totalCostEnd1, 2) .'€' ?></td>
+		<td class="end1"><?php echo number_format($totalCostEnd1, 2) .'€' ?></td>
 	</tr>
 	<tr class="tr">
-		<td class="end2 font-large"><?php echo $nameEnd2  ?></td>
+		<td class="end2"><?php echo $nameEnd2  ?></td>
 		<td><?php echo $powerCost .'€ x '. number_format($powerPercentEnd2*100, 2) .'% = '. number_format($powerCostEnd2, 2) .'€' ?></td>
 		<td><?php echo $taxCost .'€ x '. number_format($taxPercentEnd2*100, 2) .'% = '. number_format($taxCostEnd2, 2) .'€' ?></td>
-		<td class="end2 font-large"><?php echo number_format($totalCostEnd2, 2) .'€' ?></td>
+		<td class="end2"><?php echo number_format($totalCostEnd2, 2) .'€' ?></td>
 	</tr>
 	<tr class="tr">
-		<td class="end3 font-large"><?php echo $nameEnd3  ?></td>
+		<td class="end3"><?php echo $nameEnd3  ?></td>
 		<td><?php echo $powerCost .'€ x '. number_format($powerPercentEnd3*100, 2) .'% = '. number_format($powerCostEnd3, 2) .'€' ?></td>
 		<td><?php echo $taxCost .'€ x '. number_format($taxPercentEnd3*100, 2) .'% = '. number_format($taxCostEnd3, 2) .'€' ?></td>
-		<td class="end3 font-large"><?php echo number_format($totalCostEnd3, 2) .'€' ?></td>
+		<td class="end3"><?php echo number_format($totalCostEnd3, 2) .'€' ?></td>
 	</tr>
 	<tr>
 		<td class="totals">ΣΥΝΟΛΑ</td>
